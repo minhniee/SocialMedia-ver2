@@ -1,4 +1,6 @@
-﻿namespace SocialMedia.Config;
+﻿using System.Text;
+
+namespace SocialMedia.Config;
 
 public class EmailConfiguration
 {
@@ -9,4 +11,15 @@ public class EmailConfiguration
     public string FromEmail { get; set; }
     public string FromName { get; set; }
     public bool EnableSsl { get; set; }
+
+
+    public override string ToString()
+    {
+        return GetType().GetProperties()
+            .Select(info => (info.Name, Value: info.GetValue(this, null) ?? "(null)"))
+            .Aggregate(
+                new StringBuilder(),
+                (sb, pair) => sb.AppendLine($"{pair.Name}: {pair.Value}"),
+                sb => sb.ToString());
+    }
 }

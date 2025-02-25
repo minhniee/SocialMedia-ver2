@@ -1,76 +1,80 @@
-﻿using MailKit.Net.Smtp;
-using MailKit.Security;
-using MimeKit;
+﻿//using MailKit.Net.Smtp;
+//using MailKit.Security;
+//using MimeKit;
+using Microsoft.Extensions.Options;
+using SocialMedia.Config;
 using SocialMedia.Services;
 using System.Net;
+using System.Net.Mail;
+
 
 
 namespace SocialMedia.Service;
 
 public class EmailService : IEmailService
 {
-    //private readonly EmailConfiguration _emailConfig;
+    private readonly EmailConfiguration _emailConfig;
     private readonly IConfiguration _configuration;
 
-    //public EmailService(
-    //    IOptions<EmailConfiguration> emailConfig,
-    //    IConfiguration configuration)
-    //{
-    //    _emailConfig = emailConfig.Value;
-    //    _configuration = configuration;
-    //}
-    public EmailService(IConfiguration configuration)
+  public EmailService(IOptions<EmailConfiguration> options, IConfiguration configuration)
     {
+        _emailConfig = options.Value;
         _configuration = configuration;
     }
+    //public EmailService(IConfiguration configuration)
+    //{
+    //    _configuration = configuration;
+    //}
 
-    public async Task SendEmailAsync(string email, string subject, string body)
+    public async Task SendEmailAsync(string email, string subject, string message)
     {
-        //try
-        //{
-        //    var mail = new MailMessage
-        //    {
-        //        From = new MailAddress(_emailConfig.FromEmail, _emailConfig.FromName),
-        //        Subject = subject,
-        //        Body = message,
-        //        IsBodyHtml = true
-        //    };
-
-        //    mail.To.Add(new MailAddress(email));
-
-        //    using (var smtp = new SmtpClient(_emailConfig.SmtpServer, _emailConfig.SmtpPort))
-        //    {
-        //        smtp.Credentials = new NetworkCredential(_emailConfig.SmtpUsername, _emailConfig.SmtpPassword);
-        //        smtp.EnableSsl = _emailConfig.EnableSsl;
-
-        //        await smtp.SendMailAsync(mail);
-        //    }
-        //}
-        //catch (Exception ex)
-        //{
-        //    // Log the error
-        //    throw new Exception($"Failed to send email: {ex.Message}", ex);
-        //}
         try
         {
-            var emailSettings = _configuration.GetSection("EmailSettings");
-            var message = new MimeMessage();
-            message.From.Add(new MailboxAddress(emailSettings["SenderName"], emailSettings["SenderEmail"]));
-            message.To.Add(new MailboxAddress("", email));
-            message.Subject = subject;
-            message.Body = new TextPart("html") { Text = body };
+            var mail = new MailMessage
+            {
+                From = new MailAddress(_emailConfig.FromEmail, _emailConfig.FromName),
+                Subject = subject,
+                Body = message,
+                IsBodyHtml = true
+            };
 
-            using var client = new SmtpClient();
-            await client.ConnectAsync(emailSettings["SmtpServer"], int.Parse(emailSettings["SmtpPort"]), SecureSocketOptions.StartTls);
-            await client.AuthenticateAsync(emailSettings["SenderEmail"], emailSettings["SenderPassword"]);
-            await client.SendAsync(message);
-            await client.DisconnectAsync(true);
+            mail.To.Add(new MailAddress(email));
 
+            using (var smtp = new SmtpClient(_emailConfig.SmtpServer, _emailConfig.SmtpPort))
+            {
+                smtp.Credentials = new NetworkCredential(_emailConfig.SmtpUsername, _emailConfig.SmtpPassword);
+                //smtp.UseDefaultCredentials = true;
+                smtp.EnableSsl = _emailConfig.EnableSsl;
+
+                await smtp.SendMailAsync(mail);
+            }
+            Console.Write(_emailConfig.ToString());
         }
         catch (Exception ex)
         {
+            // Log the error
             throw new Exception($"Failed to send email: {ex.Message}", ex);
         }
+        //try
+        //{
+        //    var emailSettings = _configuration.GetSection("EmailSettings");
+        //    var message = new MimeMessage();
+        //    message.From.Add(new MailboxAddress(emailSettings["SenderName"], emailSettings["SenderEmail"]));
+        //    message.To.Add(new MailboxAddress("", email));
+        //    message.Subject = subject;
+        //    message.Body = new TextPart("html") { Text = body };
+
+        //    using var client = new SmtpClient();
+        //    await client.ConnectAsync(emailSettings["SmtpServer"], int.Parse(emailSettings["SmtpPort"]), SecureSocketOptions.StartTls);
+        //    await client.AuthenticateAsync(emailSettings["SenderEmail"], emailSettings["SenderPassword"]);
+        //    await client.SendAsync(message);
+        //    await client.DisconnectAsync(true);
+
+        //}
+        //catch (Exception ex)
+        //{
+        //    throw new Exception($"Failed to send email: {ex.Message}", ex);
+        //}
     }
 
     public async Task SendPasswordResetEmailAsync(string email, string token)
