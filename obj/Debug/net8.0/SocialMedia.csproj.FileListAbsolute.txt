@@ -596,10 +596,10 @@ C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets\m
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SocialMedia.props
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SocialMedia.props
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\SocialMe.B1ADF9F0.Up2Date
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\SocialMedia.dll
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\refint\SocialMedia.dll
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\SocialMedia.pdb
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\SocialMedia.genruntimeconfig.cache
 C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\ref\SocialMedia.dll
-C:\Users\minhlq\source\repos\SocialMedia-ver2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

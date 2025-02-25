@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\service\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:service\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\config\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:config\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +71,8 @@
       "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D57D3445-756D-458B-810D-9BBFC506E8B2}|SocialMedia.csproj|c:\\users\\minhlq\\source\\repos\\socialmedia-ver2\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +90,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IAuthService.cs",
               "RelativeDocumentMoniker": "Service\\IAuthService.cs",
@@ -63,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "Service\\AuthService.cs",
@@ -82,6 +122,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:41:42.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\IPostRepository.cs",
+              "RelativeToolTip": "Repositories\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:41:40.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\PostService.cs",
+              "RelativeDocumentMoniker": "Service\\PostService.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\PostService.cs",
+              "RelativeToolTip": "Service\\PostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:41:14.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IPostService.cs",
+              "RelativeDocumentMoniker": "Service\\IPostService.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IPostService.cs",
+              "RelativeToolTip": "Service\\IPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:41:12.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Config\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "Config\\EmailConfiguration.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Config\\EmailConfiguration.cs",
+              "RelativeToolTip": "Config\\EmailConfiguration.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:25:47.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\EmailService.cs",
@@ -94,46 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-25T01:58:26.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\AuthRepository.cs",
-              "RelativeToolTip": "Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T02:04:37.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Service\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IEmailService.cs",
-              "RelativeToolTip": "Service\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T02:05:21.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IAuthRepository.cs",
@@ -147,19 +213,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:04:37.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAlwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T01:51:15.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:01:13.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:01:40.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:01:52.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T01:58:26.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -168,6 +299,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:31:56.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:02:41.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:03:28.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Service\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\minhlq\\source\\repos\\SocialMedia-ver2\\Service\\IEmailService.cs",
+              "RelativeToolTip": "Service\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:05:21.543Z",
               "EditorCaption": ""
             }
           ]

@@ -18,7 +18,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IEmailService, EmailService>(); // Implement email service
 
 // Configure Identity
@@ -48,13 +51,12 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 // Register Services
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IAuthRepository, AuthRepository>();
-builder.Services.AddScoped<IEmailService, EmailService>();
 //builder.Services.AddScoped<IUserService, UserService>();
 //builder.Services.AddScoped<IUserRepository, UserRepository>();
 //builder.Services.AddScoped<IPostService, PostService>();
 //builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -64,6 +66,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
+app.UseSession();
 
 app.UseRouting();
 

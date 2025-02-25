@@ -30,6 +30,7 @@ namespace SocialMedia.Controllers
             var result = await _authService.LoginAsync(model);
             if (result.Success)
             {
+                //HttpContext.Session.SetString("UserId", );
                 return RedirectToAction("Index", "Home");
             }
 
