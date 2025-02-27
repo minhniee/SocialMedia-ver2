@@ -7,6 +7,15 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
+        try
+        {
+            Database.EnsureCreated(); // Or use Database.Migrate() if using migrations
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"DB Connection Error: {ex.Message}");
+            throw;
+        }
     }
 
     public DbSet<Post> Posts { get; set; }

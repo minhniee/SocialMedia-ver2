@@ -9,63 +9,47 @@ namespace SocialMedia.Repositories
 
         private readonly ApplicationDbContext _context;
 
-        public PostRepository(ApplicationDbContext context )
+        public PostRepository(ApplicationDbContext context)
         {
             _context = context;
         }
 
         public async Task<Post> CreatePostAsync(Post post)
         {
-          await  _context.Posts.AddAsync(post);
-           _context.SaveChanges();
-        return post;
-
+            await _context.Posts.AddAsync(post);
+            _context.SaveChanges();
+            return post;
         }
 
         public async Task<bool> DeletePostAsync(Post post)
         {
-            var postExitst = _context.Posts.Find(post.Id);
-            if (postExitst != null)
-            {
-                 _context.Remove(postExitst);
-                await _context.SaveChangesAsync();
-                return true;
-            }
-            return false;
+            _context.Remove(post);
+            await _context.SaveChangesAsync();
+            return true;
         }
 
         public async Task<Post> GetPostByIdAsync(int id)
         {
-            var postExitst =  _context.Posts.Find(id);
-            if (postExitst == null) return null;
-            return  postExitst;
-
+            return await _context.Posts.FindAsync(id);
         }
 
-        public async Task<IEnumerable<Post>> GetPostsAsync(int userId)
+        public async Task<IEnumerable<Post>> GetPostsAsync(string userId)
         {
             return await _context.Posts
                 .Include(p => p.User)
                 .Include(p => p.Comments)
                 .Include(p => p.Likes)
-                .Where(p => p.UserId == userId.ToString())
+                .Where(p => p.UserId == userId)
                 .OrderByDescending(p => p.CreatedAt)
                 .ToListAsync();
         }
 
         public async Task<bool> UpdatePostAsync(Post post)
         {
-            var postExist = await _context.Posts.FindAsync(post.Id);
-            if(postExist != null)
-            {
-                postExist.Content = post.Content;
-                postExist.ImageUrl = post.ImageUrl;
+            _context.Posts.Update(post);
+            await _context.SaveChangesAsync();
+            return true;
 
-                _context.Posts.Update(postExist);
-                await _context.SaveChangesAsync();
-                return true;
-            }
-            return false;
         }
     }
 }

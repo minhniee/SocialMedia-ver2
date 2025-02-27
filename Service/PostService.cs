@@ -6,35 +6,67 @@ namespace SocialMedia.Service
     public class PostService : IPostService
     {
         private readonly IPostRepository _postRepository;
+        private readonly ApplicationDbContext _context;
 
-        public PostService(IPostRepository postRepository)
+        public PostService(IPostRepository postRepository, ApplicationDbContext context)
         {
             _postRepository = postRepository;
-        }
-        public async Task<string> CreatePost(Post post)
-        {
-            var result = await _postRepository.CreatePostAsync(post);
-            return result.Content;
+            _context = context;
         }
 
-        public Task<string> DeletePost(string postId)
+        public async Task<ServiceResponse<Post>> GetPost(int postId)
         {
-            throw new NotImplementedException();
+            var postExist = await _postRepository.GetPostByIdAsync(postId);
+            if (postExist == null) return ServiceResponse<Post>.ErrorResponse("Post not found");
+            return ServiceResponse<Post>.SuccessResponse(postExist, "Post found");
         }
 
-        public Task<string> GetPost(string postId)
+        public async Task<ServiceResponse<IEnumerable<Post>>> GetPosts(string userId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var posts = await _postRepository.GetPostsAsync(userId);
+                return ServiceResponse<IEnumerable<Post>>.SuccessResponse(posts, "Post found");
+            }
+            catch (Exception e)
+            {
+                return ServiceResponse<IEnumerable<Post>>.ErrorResponse("'GetPosts' is wrong");
+
+            }
+
         }
 
-        public Task<IEnumerable<Post>> GetPosts(string userId)
+        public async Task<ServiceResponse<string>> CreatePost(Post post)
         {
-            throw new NotImplementedException();
+            await _postRepository.CreatePostAsync(post);
+            return ServiceResponse<string>.SuccessResponse("Success", "Post found");
         }
 
-        public Task<string> UpdatePost(string postId)
+        public async Task<ServiceResponse<bool>> DeletePost(string postId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var post = await _postRepository.GetPostByIdAsync(Int32.Parse(postId));
+                await _postRepository.DeletePostAsync(post);
+                return ServiceResponse<bool>.SuccessResponse(true, "Post deleted");
+            }
+            catch (Exception e)
+            {
+                return ServiceResponse<bool>.ErrorResponse("Delete post failed");
+            }
+        }
+
+        public async Task<ServiceResponse<bool>> UpdatePost(Post post)
+        {
+            var postExist = await _postRepository.GetPostByIdAsync(post.Id);
+            if (post == null) return ServiceResponse<bool>.ErrorResponse("Post not found");
+
+            postExist.Content = post.Content;
+            postExist.ImageUrl = post.ImageUrl;
+
+            await _postRepository.UpdatePostAsync(postExist);
+            return ServiceResponse<bool>.SuccessResponse(true, "Post updated");
+
         }
     }
 }

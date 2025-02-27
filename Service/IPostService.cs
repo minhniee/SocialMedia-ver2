@@ -4,11 +4,11 @@ namespace SocialMedia.Service
 {
     public interface IPostService
     {
-        Task<string> GetPost(string postId);
-        Task<IEnumerable<Post>> GetPosts(string userId);
-        Task<string> CreatePost(Post post);
-        Task<string> DeletePost(string postId);
-        Task<string> UpdatePost(string postId);
+        Task<ServiceResponse<Post>> GetPost(int postId);
+        Task<ServiceResponse<IEnumerable<Post>>> GetPosts(string userId);
+        Task<ServiceResponse<string>> CreatePost(Post post);
+        Task<ServiceResponse<bool>> DeletePost(string postId);
+        Task<ServiceResponse<bool>> UpdatePost(Post post);
 
 
     }
