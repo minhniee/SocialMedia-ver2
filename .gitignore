@@ -1,1 +1,105 @@
+# Visual Studio user-specific files
+*.user
+*.userosscache
+*.suo
+*.cache
+*.csproj.user
+*.dbmdl
+*.dotCover
+*.ncb
+*.obj
+*.pdb
+*.sln.docstates
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.vcxproj.user
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.dll
+*.log
+*.log.*
+*.sqlite
+*.sql
+*.bak
+
+# Visual Studio Code
+.vscode/
 .vs/
+
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.lock.json
+project.lock.json
+
+# ASP.NET Core
+appsettings*.json
+appsettings.*.json
+secrets.json
+
+# Entity Framework
+*.db
+*.mdf
+*.ldf
+
+# NuGet
+project.assets.json
+nuget.lock.json
+.nuget/
+
+# Rider
+.idea/
+
+# Windows Thumbnail Cache
+Thumbs.db
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Generated files
+*.g.cs
+*.g.i.cs
+*.g.csproj
+GeneratedFiles/
+
+# JetBrains
+.idea/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# SignalR
+*.signalr
+
+# Node.js (for Blazor or React)
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn.lock
+
+# Environment
+.env
+.env.*
+
+# Blazor
+wwwroot/appsettings*.json
+wwwroot/appsettings.*.json
